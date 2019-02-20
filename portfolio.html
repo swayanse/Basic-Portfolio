@@ -12,27 +12,48 @@
 
 <body>
     <!-- Header/Nav Bar-->
-    <header>
-        <h1 id="hero">Kelly Corwin</h1>
-        <ul>
-            <li><a href="index.html" alt="link to about me">About</a></li>
-            <li><a href="portfolio.html" alt="link to portfolio">Portfolio</a></li>
-            <li><a href="contact.html" alt="link to contact">Contact</a></li>
-        </ul>
+    <header id="header">
+        <div class="container">
+            <a href="index.html" id="logo">Kelly Corwin</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
     <!-- Container for page elements-->  
-    <div class="container">
-        <!--Portfolio images w/ header-->
-        <h1>Portfolio</h1>
-        <a href=""><img src="" alt="link to hangman game"><p class="text-bar">Hangman</p></a>
-        <a href=""><img src="" alt="link to rpg game"><p class="text-bar">Rpg Game</p></a>
-        <a href=""><img src="" alt="link to trivia game"><p class="text-bar">Trivia Game</p></a>
-        <a href=""><img src="" alt="link to hangman game"><p class="text-bar">Rutgers Info Widget</p></a>
-        <a href=""><img src="" alt="link to hangman game"><p class="text-bar">Rock Paper Scissors</p></a>
+    <div id="main-container" class="container">
+        <section class="main-section">>
+            <!--Portfolio images w/ header-->
+            <h1>Portfolio</h1>
+            <div class="work">
+                <img src="" alt="link to hangman game">
+                <a href=""><h3>Hangman</h3></a>
+            </div>
+            <div class="work">
+                <img src="" alt="link to rpg game">
+                <a href=""><h3>Rpg Game</h3></a>
+            </div>
+            <div class="work">
+                <img src="" alt="link to trivia game">
+                <a href=""><h3>Trivia Game</h3></a>
+            </div>
+            <div class=work>
+                <img src="" alt="link to hangman game">
+                <a href=""><h3>Rutgers Info Widget</h3></a>
+            </div>
+            <div class="work">
+                <img src="" alt="link to hangman game">
+                <a href=""><h3>Rock Paper Scissors</h3></a>
+            </div>
+        </section>
     </div>
     <!-- Footer with copywright information-->
     <footer>
-        Copyright
+        <div class="container">
+            Copyright &copy; 
+        </div>
     </footer>
 </body>
 </html>
